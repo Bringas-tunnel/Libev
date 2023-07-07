@@ -295,6 +295,8 @@ wget -O autokill "https://raw.githubusercontent.com/Bringas-tunnel/Libev/main/ss
 wget -O ceklim "https://raw.githubusercontent.com/Bringas-tunnel/Libev/main/ssh/ceklim.sh"
 wget -O tendang "https://raw.githubusercontent.com/Bringas-tunnel/Libev/main/ssh/tendang.sh"
 wget -O add-host "https://raw.githubusercontent.com/Bringas-tunnel/Libev/main/ssh/add-host.sh"
+# updatemenu
+wget -O updatemenu "https://raw.githubusercontent.com/Bringas-tunnel/Libev/main/updatemenu/updatemenu.sh"
 # xray-cert
 wget -O certv2ray "https://raw.githubusercontent.com/Bringas-tunnel/Libev/main/xray-cert/certv2ray.sh"
 # menu-system
@@ -323,6 +325,8 @@ chmod +x menu-vless
 chmod +x clearcache
 chmod +x menu-trgo
 chmod +x menu-trojan
+# updatemenu
+chmod +x updatemenu
 # ssh
 chmod +x menu-ssh
 chmod +x usernew
