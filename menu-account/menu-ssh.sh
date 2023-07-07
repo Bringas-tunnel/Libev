@@ -56,12 +56,10 @@ else
 Exp=$(curl -sS https://raw.githubusercontent.com/Bringas-tunnel/ipku/main/ipvps | grep $MYIP | awk '{print $3}')
 fi
 MYIP=$(wget -qO- ipinfo.io/ip);
-echo "Checking VPS"
-
 clear
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\E[0;100;33m       • SSH & OVPN MENU •         \E[0m"
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "\E[44;1;39m        SSH & OVPN MENU        \E[0m"
+echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e ""
 echo -e " [\e[36m•1\e[0m] Create SSH & OpenVPN Account "
 echo -e " [\e[36m•2\e[0m] Trial Account SSH & OpenVPN "
@@ -75,9 +73,8 @@ echo -e " [\e[36m•9\e[0m] Cek Users Who Do Multi Login SSH "
 echo -e ""
 echo -e " [\e[31m•0\e[0m] \e[31mBACK TO MENU\033[0m"
 echo -e ""
-echo -e   "Press x or [ Ctrl+C ] • To-Exit"
 echo ""
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e ""
 read -p " Select menu :  "  opt
 echo -e ""
