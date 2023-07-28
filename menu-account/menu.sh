@@ -139,7 +139,7 @@ echo -e " [\e[36m•3\e[0m] Vless Menu          [\e[36m•7\e[0m] Clear RAM Cach
 echo -e " [\e[36m•4\e[0m] Trojan Menu         [\e[36m•8\e[0m] Update Menu"                  
 echo -e   ""
 echo -e   ""
-read -p " Select menu :  "  opt
+read -p " --- >>   "  opt
 echo -e   ""
 case $opt in
 1) clear ; menu-ssh ;;
