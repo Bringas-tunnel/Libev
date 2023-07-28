@@ -311,6 +311,12 @@ wget -O auto-reboot "https://raw.githubusercontent.com/Bringas-tunnel/Libev/main
 wget -O restart "https://raw.githubusercontent.com/Bringas-tunnel/Libev/main/menu-system/restart.sh"
 wget -O bw "https://raw.githubusercontent.com/Bringas-tunnel/Libev/main/menu-system/bw.sh"
 
+wget -0 m-akun "https://raw.githubusercontent.com/Bringas-tunnel/Libev/main/m-akun/m-akun.sh"
+wget -0 menu-vmess "https://raw.githubusercontent.com/Bringas-tunnel/Libev/main/m-akun/menu-vmess.sh"
+wget -0 menu-vless "https://raw.githubusercontent.com/Bringas-tunnel/Libev/main/m-akun/menu-vless.sh"
+wget -0 menu-ssh "https://raw.githubusercontent.com/Bringas-tunnel/Libev/main/m-akun/menu-ssh.sh"
+wget -0 menu-trojan "https://raw.githubusercontent.com/Bringas-tunnel/Libev/main/m-akun/menu-trojan.sh"
+wget -0 menu-trojango "https://raw.githubusercontent.com/Bringas-tunnel/Libev/main/m-akun/menu-trojango.sh"
 # port
 wget -O port-ssl "https://raw.githubusercontent.com/Bringas-tunnel/Libev/main/port/port-ssl.sh"
 wget -O port-ovpn "https://raw.githubusercontent.com/Bringas-tunnel/Libev/main/port/port-ovpn.sh"
