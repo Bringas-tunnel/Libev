@@ -16,14 +16,13 @@ echo -e " [\e[36m•6\e[0m] Set Auto Reboot"
 echo -e " [\e[36m•7\e[0m] Restart All Service"
 echo -e " [\e[36m•8\e[0m] Change Banner"
 echo -e " [\e[36m•9\e[0m] Cek Bandwith"
+echo -e " [\e[36m•10\e[0m] Running"
 echo -e ""
 echo -e " [\e[31m•0\e[0m] \e[31mBACK TO MENU\033[0m"
 echo -e   ""
-echo -e   "Press x or [ Ctrl+C ] • To-Exit"
-echo -e   ""
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e ""
-read -p " Select menu : " opt
+read -p " --- >>   " opt
 echo -e ""
 case $opt in
 1) clear ; menu-domain ; exit ;;
@@ -35,6 +34,7 @@ case $opt in
 7) clear ; restart ; exit ;;
 8) clear ; nano /etc/issue.net ; exit ;; #ssh-vpn banner.conf
 9) clear ; bw ; exit ;;
+10) clear ; running ;;
 0) clear ; menu ; exit ;;
 x) exit ;;
 *) echo -e "" ; echo "Anda salah tekan" ; sleep 1 ; menu-set ;;
