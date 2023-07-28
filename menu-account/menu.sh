@@ -139,7 +139,7 @@ read -p " --- >>   "  opt
 echo -e   ""
 case $opt in
 1) clear ; m-akun ;;
-2) clear ; menu-system ;;
+2) clear ; menu-set ;;
 3) clear ; updatemenu ;;
 x) exit ;;
 esac
