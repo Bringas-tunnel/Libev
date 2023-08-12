@@ -80,19 +80,16 @@ LIGHT='\033[0;37m'
 #Domain
 domain=$(cat /etc/xray/domain)
 clear 
-echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "                 • ACCOUNT MENU•                 "
-echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " [\e[36m•1\e[0m] SSH MENU "
-echo -e " [\e[36m•2\e[0m] VMESS MENU"
-echo -e " [\e[36m•3\e[0m] VLESS MENU"
-echo -e " [\e[36m•4\e[0m] TROJAN MENU"
-echo -e " [\e[33m•0\e[0m] BACK TO MENU"
-echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "                 • --------------------•                 "
-echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"               
+echo -e " ========-ACCOUNT MENU-========="
+echo ""
+echo -e " [\e[36m1\e[0m] SSH MENU "
+echo -e " [\e[36m2\e[0m] VMESS MENU"
+echo -e " [\e[36m3\e[0m] VLESS MENU"
+echo -e " [\e[36m4\e[0m] TROJAN MENU"
+echo -e " [\e[33m0\e[0m] BACK TO MENU"
+echo ""               
 echo -e   ""
-read -p " --- >>   "  opt
+read -p " select menu [ 1 / 0 ] --- >>   "  opt
 echo -e   ""
 case $opt in
 1) clear ; menu-ssh ;;
