@@ -86,7 +86,7 @@ echo -e " [\e[36m1\e[0m] SSH MENU "
 echo -e " [\e[36m2\e[0m] VMESS MENU"
 echo -e " [\e[36m3\e[0m] VLESS MENU"
 echo -e " [\e[36m4\e[0m] TROJAN MENU"
-echo -e " [\e[33m0\e[0m] BACK TO MENU"
+echo -e " [\e[33m5\e[0m] BACK TO MENU"
 echo ""               
 echo -e   ""
 read -p " select menu [ 1 / 0 ] --- >>   "  opt
