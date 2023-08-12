@@ -3,15 +3,11 @@ MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
 
 clear 
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\E[0;100;33m          • SYSTEM MENU •          \E[0m"
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e ""
-echo -e " [\e[36m•1\e[0m] MENU SSH"
-echo -e " [\e[36m•2\e[0m] MENU VMESS"
-echo -e " [\e[36m•3\e[0m] MENU VLESS"
-echo -e " [\e[36m•4\e[0m] MENU TROJAN"
-echo -e " [\e[36m•5\e[0m] BALIK KE MENU"
+echo -e " [\e[1;36m1\e[0m] MENU SSH"
+echo -e " [\e[1;36m2\e[0m] MENU VMESS"
+echo -e " [\e[1;36m3\e[0m] MENU VLESS"
+echo -e " [\e[1;36m4\e[0m] MENU TROJAN"
+echo -e " [\e[1;36m5\e[0m] BALIK KE MENU"
 echo -e ""
 read -p " --- >>   " opt
 echo -e ""
