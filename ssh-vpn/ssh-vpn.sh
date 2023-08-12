@@ -339,6 +339,7 @@ chmod +x restore
 chmod +x autobackup
 chmod +x strt
 # menu-akun
+chmod +x m-akun
 chmod +x menu
 chmod +x menu-vmess
 chmod +x menu-vless
