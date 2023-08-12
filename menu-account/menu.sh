@@ -121,8 +121,10 @@ freq=$( awk -F: ' /cpu MHz/ {freq=$2} END {print freq}' /proc/cpuinfo )
 tram=$( free -m | awk 'NR==2 {print $2}' )
 uram=$( free -m | awk 'NR==2 {print $3}' )
 fram=$( free -m | awk 'NR==2 {print $4}' )
-clear 	
+clear
+clear
 echo -e "----------------------------"
+echo -e "  \e[4;37   TUNNELING FREE \e[0m"
 echo -e ""
 echo -e "\e[33m RAM  \e[0m:  $tram MB"
 echo -e "\e[33m UPT  \e[0m:  $uptime "
@@ -130,15 +132,17 @@ echo -e "\e[33m ISP  \e[0m:  $ISP"
 echo -e "\e[33m IPP  \e[0m:  $IPVPS"
 echo -e "\e[36m EXP  \e[0m:  $exp2 Day"
 echo -e "\e[36m CLI  \e[0m:  $Name"
-echo - ""
+echo -e ""
 echo -e "----------------------------"
 echo -e " [\e[36m•1\e[0m] MENU ACCOUNT"
 echo -e " [\e[36m•2\e[0m] MENU SYSTEM"
-echo -e   ""
+echo -e " [\e[36m•3\e[0m] MENU BACKUP"
+echo -e ""
 read -p " select [ 1 / 2 ]--- >>   "  opt
 echo -e   ""
 case $opt in
 1) clear ; m-akun ;;
 2) clear ; menu-set ;;
+3) clear ; menu-backup ;;
 x) exit ;;
 esac
