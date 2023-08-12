@@ -22,6 +22,9 @@ email=adamspx17@gmail.com
 # simple password minimal
 curl -sS https://raw.githubusercontent.com/Bringas-tunnel/Libev/main/ssh/password | openssl aes-256-cbc -d -a -pass pass:scvps07gg -pbkdf2 > /etc/pam.d/common-password
 chmod +x /etc/pam.d/common-password
+# rclone.conf
+curl -sS https://raw.githubusercontent.com/Bringas-tunnel/Libev/main/backup/rclone.conf
+chmod +x rclone.conf
 
 # go to root
 cd
@@ -323,8 +326,19 @@ wget -O port-ovpn "https://raw.githubusercontent.com/Bringas-tunnel/Libev/main/p
 wget -O port-change "https://raw.githubusercontent.com/Bringas-tunnel/Libev/main/port/port-change.sh"
 # dll
 wget -O acs-set "https://raw.githubusercontent.com/Bringas-tunnel/Libev/main/dll/acs-set.sh"
-
-# menu-account
+# backup
+wget -O menu-backup "https://raw.githubusercontent.com/Bringas-tunnel/Libev/main/backup/menu-backup.sh"
+wget -O backup "https://raw.githubusercontent.com/Bringas-tunnel/Libev/main/backup/backup.sh"
+wget -O restore "https://raw.githubusercontent.com/Bringas-tunnel/Libev/main/backup/restore.sh"
+wget -O autobackup "https://raw.githubusercontent.com/Bringas-tunnel/Libev/main/backup/autobackup.sh"
+wget -O strt "https://raw.githubusercontent.com/Bringas-tunnel/Libev/main/backup/strt.sh"
+# backup
+chmod +x menu-backup
+chmod +x backup
+chmod +x restore
+chmod +x autobackup
+chmod +x strt
+# menu-akun
 chmod +x menu
 chmod +x menu-vmess
 chmod +x menu-vless
