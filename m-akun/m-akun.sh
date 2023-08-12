@@ -89,13 +89,14 @@ echo -e " [\e[36m4\e[0m] TROJAN MENU"
 echo -e " [\e[33m5\e[0m] BACK TO MENU"
 echo ""               
 echo -e   ""
-read -p " select menu [ 1 / 0 ] --- >>   "  opt
-echo -e   ""
+read -p " Select menu :  "  opt
+echo -e ""
 case $opt in
-1) clear ; menu-ssh ;;
-2) clear ; menu-vmess ;;
-3) clear ; menu-vless ;;
-4) clear ; menu-trojan ;;
-5) clear ; menu ;;
+1) clear ; menu-ssh ; exit ;;
+2) clear ; menu-vmess ; exit ;;
+3) clear ; menu-vless ; exit ;;
+4) clear ; menu-trojan ; exit ;;
+5) clear ; menu ; exit ;;
 x) exit ;;
+*) echo "Anda salah tekan " ; sleep 1 ; menu-ssh ;;
 esac
